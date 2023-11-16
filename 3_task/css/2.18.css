@@ -1,0 +1,21 @@
+table{
+    border-collapse: collapse;
+    border: 1px solid grey;
+    width: 100%;
+    height: 100%;
+}
+th{
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+td{
+    border: 1px solid #333;
+    padding: 10px;
+}
+.row_style_1{
+    height: 20vh;
+}
+.row_style_2{
+    height: 60vh;
+}
