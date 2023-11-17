@@ -3,3 +3,37 @@ body{
     width: 100%;
     padding: 1%;
 }
+
+/*Красная строка у абзацев*/
+p{
+    text-indent: 20px;
+}
+
+table{
+    width: 100%;
+}
+
+/*Для жирного текста*/
+.bold_list{
+    font-weight: bold;
+}
+
+/*Выделенные синим слова с подчероком*/
+.blue_underline_text{
+    text-decoration: underline;
+    color: blue;
+}
+
+/*Стиль для колонки с кодом*/
+.column_code{
+    width: 80%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*Стиль для колонки с текстом*/
+.column_text{
+    width: 20%;
+    text-align: center;
+}
+
