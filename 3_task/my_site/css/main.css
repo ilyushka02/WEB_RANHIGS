@@ -3,6 +3,7 @@ body {
     width: 99%;
     margin: 10px;
     /*padding: 1%;*/
+    background-image: url("../img/Fon.gif");
 }
 
 table {
