@@ -57,3 +57,7 @@ table{
 .bold_number::marker{
     font-weight: bold;
 }
+
+.photo{
+    text-align: center;
+}
