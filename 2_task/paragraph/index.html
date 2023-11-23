@@ -4,9 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/main_2_task.css">
-    <title>Пункт 2.2</title>
+    <title>Структура HTML – документа и используемые для этого тэги</title>
 </head>
 <body>
+<!-- Заголовок -->
+<h1>Структура HTML – документа и используемые для этого тэги</h1>
 
+<!--Текст перед ссылками-->
+<p>Документ в формате HTML 4.0 состоит из трех частей:</p>
+<ul>
+    <li>строки, содержащей информацию о версии HTML;</li>
+    <li>раздела заголовков (определяемого элементом <span class="blue_underline_text">HEAD</span>);</li>
+    <li>тела, которое включает собственно содержимое документа. Тело может вводиться элементом <span class="blue_underline_text">BODY</span>.</li>
+</ul>
+<p>Перед каждым элементом или после каждого элемента может находиться пустое пространство (пробелы, переход на новую строку, табуляции и комментарии).</p>
+<p>Вот пример простого документа HTML:</p>
+<table>
+    <tr>
+        <td class="column_text">Раздел 1</td>
+        <td class="column_code">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN"
+            "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+        </td>
+    </tr>
+    <tr>
+        <td class="column_text">Начало контейнера HTML</td>
+        <td class="column_code">&lt;HTML&gt;</td>
+    </tr>
+    <tr>
+        <td class="column_text">Раздел 2 - Заголовочная часть документа</td>
+        <td class="column_code">
+            &lt;HEAD&gt;<br>
+            <p>&lt;TITLE&gt;Мой первый документ HTML&lt;/TITLE&gt;</p>
+            &lt;/HEAD&gt;
+        </td>
+    </tr>
+    <tr>
+        <td class="column_text">Раздел 3 - Тело HTML документа</td>
+        <td class="column_code">
+            &lt;BODY&gt;
+            <p>&lt;P&gt;Всем привет!&lt;/P&gt;</p>
+            &lt;/BODY&gt;
+        </td>
+    </tr>
+    <tr>
+        <td class="column_text">Конец контейнера HTML</td>
+        <td class="column_code">&lt;/HTML&gt;</td>
+    </tr>
+</table>
+
+<p>Следует обратить внимание, что разделы 2 и 3 входят в состав контейнера &lt;HTML&gt;...&lt;/HTML&gt;.</p>
+<p>Рассмотрим подробнее части документа и теги, формирующие их структуру:</p>
+
+<!--  Список с ссылками  -->
+<ol class="bold_list">
+    <li><a href="./point_1.html">Назначение раздела 1 - дать информацию о версии HTML</a></li>
+    <li><a href="./point_2.html">Назначение и состав контейнера &lt;HTML&gt; … &lt;/HTML&gt;</a>
+        <ol type="a">
+            <li>Заголовочная часть HTML – документа</li>
+            <li>Тело HTML документа: структурные элементы и описывающие их тэги</li>
+        </ol>
+    </li>
+</ol>
 </body>
 </html>
