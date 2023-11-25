@@ -5,6 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/main.css">
     <title>Авторизация</title>
+    <!--
+    Символ пароля зависит от пользовательского агента (браузера) и не подлежит изменению.
+    Что вы могли изменить стандартный знак пароля на '*', раскоментируйте следующий участок кода
+    и измените type='password' на type='text', чтобы имитировать ввод пароля с помощью текстового ввода
+    и использовать *s вместо стандартного маркера.
+    Данное изменение я не рекомендую так как модель зашиты ослабевает.
+
+    -->
+    <!--    <script type="text/javascript">-->
+    <!--        let k = 0;-->
+    <!--        let df;-->
+    <!--        window.onload = function () {-->
+    <!--            df = document.forms[0];-->
+    <!--            df[1].onkeyup = function () {-->
+    <!--                df[0].value += df[1].value.charAt(k);-->
+    <!--                k++;-->
+    <!--                for (c = 0; c < df[1].value.length; c++) {-->
+    <!--                    df[1].value = df[1].value.replace(df[1].value.charAt(c), '*');-->
+    <!--                }-->
+    <!--            }-->
+    <!--        }-->
+    <!--    </script>-->
 </head>
 <body>
 <a href="../../index_5_task.html">Вернуться назад</a>
@@ -20,7 +42,7 @@
                 Login
             </td>
             <td class="input">
-                <input type="text" value="user2232" size="20">
+                <input type="text" id="name" size="20">
             </td>
         </tr>
         <tr>
@@ -28,7 +50,7 @@
                 Password
             </td>
             <td class="input">
-                <input type="password" value="password" size="20">
+                <input type="password" id="pass" size="20">
             </td>
         </tr>
         <tr>
@@ -38,7 +60,8 @@
 
         </tr>
         <tr>
-            <td colspan="2" class="footer">Если вы не являетсь зарегестрированным пользователем, <a href="./html/sigup.html">зарегистрируйтесь</a></td>
+            <td colspan="2" class="footer">Если вы не являетсь зарегестрированным пользователем, <a
+                    href="./html/sigup.html">зарегистрируйтесь</a></td>
         </tr>
     </table>
 </form>
