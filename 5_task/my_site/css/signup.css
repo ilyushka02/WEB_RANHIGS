@@ -1,0 +1,58 @@
+body {
+    height: 95%;
+    width: 99%;
+    margin: 10px;
+    background-image: url("../img/Fon.gif");
+}
+
+form {
+    width: 99%;
+    height: 90vh;
+    display: flex;
+}
+
+table {
+    border: 6px ridge #cccccc;
+    margin: auto;
+    width: 40%;
+    font-size: 13pt;
+}
+
+.header {
+    font-size: 21pt;
+    border-bottom: 2px solid gray;
+    vertical-align: top;
+    height: 15vh;
+}
+
+.footer {
+    border-top: 2px solid gray;
+    vertical-align: bottom;
+    height: 5vh;
+}
+
+.header, .footer{
+    text-align: left;
+}
+
+td{
+    height: 5vh;
+    /*border: 2px solid gray;*/
+}
+
+.input{
+    width: 60%;
+}
+
+.names{
+    width: 40%;
+    padding-left: 5%;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.check{
+    height: 3vh;
+}

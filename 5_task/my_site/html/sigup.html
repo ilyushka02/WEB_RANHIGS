@@ -2,10 +2,133 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/signup.css">
     <title>Регистраци</title>
 </head>
 <body>
-<a href="../../index_5_task.html">Вернуться назад</a>
+<a href="../index.html">Вернуться назад</a>
+<form>
+    <table>
+        <tr>
+            <th colspan="3" class="header">
+                Заполните приведенную нижу форму и нажмите ОТПРАВИТЬ. Знаком "*" отмечены поля, обязательные для
+                заполнения.
+            </th>
+        </tr>
+        <tr>
+            <td class="names">
+                Login<sup>*</sup>
+            </td>
+            <td class="input" colspan="2">
+                <input type="text" size="35">
+            </td>
+        </tr>
+        <tr>
+            <td class="names">
+                Пароль<sup>*</sup>
+            </td>
+            <td class="input" colspan="2">
+                <input type="password" size="35">
+            </td>
+        </tr>
+        <tr>
+            <td class="names">
+                Повторите пароль<sup>*</sup>
+            </td>
+            <td class="input" colspan="2">
+                <input type="password" size="35">
+            </td>
+        </tr>
+        <tr>
+            <td class="names">
+                Фамилия<sup>*</sup>
+            </td>
+            <td class="input" colspan="2">
+                <input type="text" size="35">
+            </td>
+        </tr>
+        <tr>
+            <td class="names">
+                Имя<sup>*</sup>
+            </td>
+            <td class="input" colspan="2">
+                <input type="text" size="35">
+            </td>
+        </tr>
+        <tr>
+            <td class="names">
+                Отчество
+            </td>
+            <td class="input" colspan="2">
+                <input type="text" size="35">
+            </td>
+        </tr>
+        <tr>
+            <td class="names">
+                Город<sup>*</sup>
+            </td>
+            <td colspan="2"><select name="city">
+                <option value="s1">Арзамас</option>
+                <option selected value="s2">Нижний Новгород</option>
+                <option value="s3">Дзержинск</option>
+                <option value="s4">Кстово</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td class="names">
+                e-mail<sup>*</sup>
+            </td>
+            <td class="input" colspan="2">
+                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size="35">
+            </td>
+        </tr>
+        <tr>
+            <td class="names">
+                Пол
+            </td>
+            <td class="input" colspan="2">
+                <p>
+                    <input type="radio" name="gender" value="men">мужской
+                    <input type="radio" name="gender" value="women">женский
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td class="names" rowspan="3" style="vertical-align: top">
+                Какими браузерами пользуетесь
+            </td>
+            <td class="check">
+                <input type="checkbox" name="selected" value="s1"> Internet Explorer
+            </td>
+            <td class="check">
+                <input type="checkbox" name="selected" value="s2"> Mozilla Firefox
+            </td>
+        </tr>
+        <tr>
+            <td class="check">
+                <input type="checkbox" name="selected" value="s3"> Google Chrome
+            </td>
+            <td class="check">
+                <input type="checkbox" name="selected" value="s4"> Opera
+            </td>
+        </tr><tr>
+            <td colspan="2" class="check">
 
+                    <input type="checkbox" name="selected" value="s5"> Другой
+                    <input type="text" size="30">
+
+            </td>
+        </tr>
+        <tr class="buttons">
+            <td>
+                <input type="submit" value="Отправить">
+            </td>
+            <td class="input" colspan="2">
+                <input type="reset" value="Очистить">
+            </td>
+        </tr>
+    </table>
+</form>
 </body>
 </html>
