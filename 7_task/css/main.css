@@ -1,0 +1,112 @@
+body {
+    height: 95vh;
+    width: 95%;
+    margin: 10px;
+    background-image: url("../img/Fon.gif");
+}
+
+.table {
+    width: 100%;
+    height: 100%;
+}
+
+.left {
+    width: 15%;
+}
+
+.right {
+    width: 83%;
+    margin-left: 2px;
+}
+
+.left-head, .right-head {
+    float: left;
+}
+
+.left-head, .right-head-row-1, .head-cols {
+    border: 1px solid grey;
+    margin: 1px;
+}
+
+.left-head, .right-head-row-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-head{
+    height: 17.5vh;
+}
+
+.right-head-row-1 {
+    height: 11vh;
+}
+
+.right-head-row-2 {
+    width: 100%;
+    display: flex;
+}
+
+.head-cols{
+    height: 6vh;
+}
+
+.head-cols-1{
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.head-cols-2{
+    flex: 1;
+}
+
+
+.footer {
+    clear: both;
+    background-color: blue;
+    text-align: center;
+}
+
+.content {
+    float: left;
+    width: 50%;
+    background-color: greenyellow;
+}
+
+.sidebar {
+    float: left;
+    width: 30%;
+    background-color: #ffc;
+}
+
+.other-bar {
+    float: left;
+    width: 20%;
+    background-color: #abc;
+}
+
+/*td {*/
+/*    border: 1px solid grey;*/
+/*}*/
+
+/*.header {*/
+/*    height: 2%;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.custom_column {*/
+/*    width: 10%;*/
+/*    height: 5%;*/
+/*}*/
+
+/*.files {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    padding: 10px;*/
+/*}*/
+
+/*.column1, .column2, .column3, .column4{*/
+/*    border: 0px;*/
+/*    text-align: center;*/
+/*}*/
