@@ -28,7 +28,7 @@ body {
     margin: 1px;
 }
 
-.left-head-calls, .right-head-row-1 {
+.left-head-calls, .right-head-row-1{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,11 +56,14 @@ body {
     height: 6vh;
 }
 
-.head-cols-1 {
-    width: 15%;
+.head-cols-1, .row{
     padding-left: 5px;
     display: flex;
     align-items: center;
+}
+
+.head-cols-1{
+    width: 15%;
 }
 
 .head-cols-2 {
